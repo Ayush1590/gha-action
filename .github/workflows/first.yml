@@ -8,3 +8,7 @@ jobs:
               run: echo "Hello world"
             - name: close connection
               run: echo "goodbye-conect"
+            - name: multi line
+              run: |
+                echo "First output"
+                echo "Second output"
